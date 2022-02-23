@@ -36,6 +36,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.torodb.torod.backends.drivers</groupId>
+			<artifactId>mysql</artifactId>
+			<version>0.40</version>
+			<scope>compile</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
